@@ -1,6 +1,6 @@
 <?php
 
-namespace app\src\Characters;
+namespace App\Characters;
 
 class Warrior extends Specifications
 {

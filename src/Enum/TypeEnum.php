@@ -1,6 +1,6 @@
 <?php
 
-namespace app\src\Enum;
+namespace App\Enum;
 
 class TypeEnum
 {

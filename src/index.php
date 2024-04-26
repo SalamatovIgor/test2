@@ -1,8 +1,8 @@
 <?php
 
-use app\src\Characters\Mystic;
-use app\src\Characters\WarriorWithShield;
-use app\src\Enum\TypeEnum;
+use App\Characters\Mystic;
+use App\Characters\WarriorWithShield;
+use App\Enum\TypeEnum;
 
 require __DIR__.'/vendor/autoload.php';
 
