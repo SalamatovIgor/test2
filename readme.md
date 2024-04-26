@@ -1,6 +1,9 @@
 Новый репозиторий
 
 
+docker-compose up -d --build \\ запустить докер
+
+
 git checkout main \\ переключение на ветку
 
 
