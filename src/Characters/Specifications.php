@@ -2,7 +2,7 @@
 
 namespace App\Characters;
 
-class Specifications
+abstract class Specifications
 {
     protected int $physique;
     protected int $agility;
