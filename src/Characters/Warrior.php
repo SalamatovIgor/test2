@@ -2,7 +2,7 @@
 
 namespace App\Characters;
 
-class Warrior extends Specifications
+abstract class Warrior extends Specifications
 {
     protected string $armor;
     protected int $regenerationHealths;
@@ -13,7 +13,6 @@ class Warrior extends Specifications
         $this->armor = $armor;
         $this->regenerationHealths = $regenerationHealths;
     }
-
 
     public function getArmor(): string
     {

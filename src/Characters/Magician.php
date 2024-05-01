@@ -2,7 +2,7 @@
 
 namespace App\Characters;
 
-class Magician extends Specifications
+abstract class Magician extends Specifications
 {
     protected int $regenerationMana;
     protected string $typeOfMantle;

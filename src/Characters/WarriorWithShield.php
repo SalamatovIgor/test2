@@ -7,8 +7,8 @@ class WarriorWithShield extends Warrior
     protected int $protection;
     protected int $blockChance;
 
-    public function __construct(int $physique, int $agility, int $spirit, string $armor,
-                                int $regenerationHealths, int $protection, int $blockChance)
+    public function __construct(int $physique, int $agility, int $spirit, string $armor, int $regenerationHealths,
+                                int $protection, int $blockChance)
     {
         parent::__construct($physique, $agility, $spirit, $armor, $regenerationHealths);
         $this->protection = $protection;
@@ -23,4 +23,5 @@ class WarriorWithShield extends Warrior
     {
         return $this->blockChance;
     }
+
 }
